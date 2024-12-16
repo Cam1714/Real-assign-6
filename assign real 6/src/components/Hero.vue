@@ -39,16 +39,15 @@
 h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #6c5ce7; /* Soft purple */
+    color: #6c5ce7;
     margin-bottom: 15px;
     letter-spacing: 2px;
 }
 
 h3 {
     font-size: 1.5rem;
-    color: #dcdde1; /* Light grey */
+    color: #dcdde1;
     margin-top: 0;
     font-style: italic;
 }
-
 </style>

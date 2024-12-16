@@ -47,7 +47,7 @@ onMounted(async () => {
           @click="store.addToCart(movie.id, { title: movie.title, url: movie.poster_path })" class="buy">
           Buy
         </button>
-        <button v-else class = 'buy'>
+        <button v-else class='buy'>
           Added
         </button>
       </div>
@@ -60,7 +60,7 @@ onMounted(async () => {
   text-align: center;
   margin-top: 40px;
   padding: 20px;
-  background-color: #f0f4f8; /* Light pastel background */
+  background-color: #f0f4f8;
   border-radius: 12px;
 }
 
@@ -78,7 +78,7 @@ select {
 }
 
 select:hover {
-  background-color: #f1c6e4; /* Soft coral on hover */
+  background-color: #f1c6e4;
 }
 
 .movie-list {
@@ -119,20 +119,20 @@ select:hover {
   font-size: 1.2rem;
   font-weight: 700;
   margin-top: 10px;
-  color: #6c5ce7; /* Soft purple */
+  color: #6c5ce7;
   text-transform: uppercase;
   transition: color 0.3s ease;
 }
 
 .movie-card:hover .movie-title {
-  color: #58a6b8; /* Subtle teal on hover */
+  color: #58a6b8;
 }
 
 .buy {
   display: block;
   margin-top: 15px;
   padding: 12px 24px;
-  background-color: #58a6b8; /* Soft teal */
+  background-color: #58a6b8;
   color: white;
   border: none;
   border-radius: 8px;
@@ -143,7 +143,7 @@ select:hover {
 }
 
 .buy:hover {
-  background-color: #4a8e97; /* Darker teal on hover */
+  background-color: #4a8e97;
   transform: scale(1.05);
 }
 
@@ -151,5 +151,4 @@ select:hover {
   background-color: #ccc;
   cursor: not-allowed;
 }
-
 </style>

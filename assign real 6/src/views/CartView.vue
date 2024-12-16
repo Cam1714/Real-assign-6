@@ -1,5 +1,5 @@
 <script setup>
-import { useStore } from '../stores';  
+import { useStore } from '../stores';
 const store = useStore();
 </script>
 
@@ -19,13 +19,13 @@ const store = useStore();
   display: flex;
   flex-direction: column;
   padding: 40px;
-  background-color: #f3f4f6;  /* Light grey background */
+  background-color: #f3f4f6;
   min-height: 100vh;
 }
 
 .cart h1 {
   text-align: center;
-  color: #6c5ce7;  /* Soft purple */
+  color: #6c5ce7;
   font-size: 2.5rem;
   margin-bottom: 30px;
 }
@@ -61,7 +61,7 @@ const store = useStore();
 }
 
 .item button {
-  background-color: #6c5ce7;  /* Soft purple */
+  background-color: #6c5ce7;
   color: white;
   padding: 8px 20px;
   border: none;
@@ -72,9 +72,7 @@ const store = useStore();
 }
 
 .item button:hover {
-  background-color: #5a3ac1;  /* Darker purple for hover */
+  background-color: #5a3ac1;
   transform: scale(1.05);
 }
-
-
 </style>

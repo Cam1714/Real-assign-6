@@ -47,7 +47,7 @@ const updateProfileHandler = (event) => {
 
 <style scoped>
 body {
-  background-color: #f0f4f8; /* Light pastel background for the entire page */
+  background-color: #f0f4f8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +57,7 @@ body {
 }
 
 .form-container {
-  background-color: #e6f7ff; /* Light blue background for the form */
+  background-color: #e6f7ff;
   padding: 40px 30px;
   border-radius: 15px;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
@@ -68,7 +68,7 @@ body {
 
 h2 {
   font-size: 2rem;
-  color: #333; /* Dark gray for text */
+  color: #333;
   margin-bottom: 20px;
 }
 
@@ -84,18 +84,18 @@ h2 {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 10px;
-  background-color: #f3f4f9; /* Light lavender background for input fields */
+  background-color: #f3f4f9;
   transition: all 0.3s ease;
 }
 
 .input-field:focus {
-  border-color: #64b5f6; /* Light blue on focus */
+  border-color: #64b5f6;
   box-shadow: 0 0 8px rgba(100, 181, 246, 0.4);
   outline: none;
 }
 
 button {
-  background-color: #4caf50; /* Soft green button color */
+  background-color: #4caf50;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -106,12 +106,11 @@ button {
 }
 
 button:hover {
-  background-color: #388e3c; /* Darker green on hover */
+  background-color: #388e3c;
   transform: scale(1.05);
 }
 
 button:active {
-  background-color: #2e7d32; /* Even darker green when clicked */
+  background-color: #2e7d32;
 }
-
-</style>    
+</style>

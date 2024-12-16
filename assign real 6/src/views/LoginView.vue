@@ -38,7 +38,7 @@ const handleLogin = () => {
 
 <style scoped>
 .hero {
-  background-image: url('background.webp'); 
+  background-image: url('background.webp');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -54,13 +54,13 @@ const handleLogin = () => {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.5); 
+  background: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 12px;
 }
 
 .form-container {
-  background-color: #ffffff; 
+  background-color: #ffffff;
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -70,7 +70,7 @@ const handleLogin = () => {
 
 h2 {
   font-size: 2rem;
-  color: #333; 
+  color: #333;
   text-align: center;
   margin-bottom: 24px;
 }
@@ -87,14 +87,14 @@ h2 {
 }
 
 .input-field:focus {
-  border-color: #5e81ac; 
+  border-color: #5e81ac;
   outline: none;
 }
 
 .button {
   width: 100%;
   padding: 16px;
-  background-color: #5e81ac; 
+  background-color: #5e81ac;
   color: white;
   border: none;
   border-radius: 8px;
@@ -104,7 +104,7 @@ h2 {
 }
 
 .button:hover {
-  background-color: #4c6b8c; 
+  background-color: #4c6b8c;
 }
 
 .logo {
@@ -113,7 +113,6 @@ h2 {
   font-style: italic;
   font-weight: bold;
   margin-left: 8px;
-  color: #ff7043; 
+  color: #ff7043;
 }
-
 </style>

@@ -42,7 +42,7 @@ onMounted(async () => {
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
-  background: linear-gradient(to right, #e2f3f5, #d4e7ec); /* Pastel blue gradient */
+  background: linear-gradient(to right, #e2f3f5, #d4e7ec);
 }
 
 .movie-list {
@@ -71,12 +71,12 @@ onMounted(async () => {
   width: 100%;
   height: 300px;
   object-fit: cover;
-  border-bottom: 5px solid #a0d8e6; /* Soft blue accent */
+  border-bottom: 5px solid #a0d8e6;
 }
 
 .movie-title {
   font-size: 1.1rem;
-  color: #444444; /* Dark grey for better readability */
+  color: #444444;
   font-weight: bold;
   margin: 10px 0;
   padding: 0 10px;
@@ -85,7 +85,7 @@ onMounted(async () => {
 .text {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #333333; /* Neutral grey for text */
+  color: #333333;
   margin-top: 40px;
   text-align: center;
 }

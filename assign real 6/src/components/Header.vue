@@ -47,7 +47,7 @@ const registrationStore = useRegistrationStore();
   font-family: 'Georgia', serif;
   font-style: italic;
   font-weight: bold;
-  color: #6c5ce7; /* Soft purple */
+  color: #6c5ce7;
   letter-spacing: 2px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -61,7 +61,7 @@ const registrationStore = useRegistrationStore();
 
 .button {
   background-color: #fff;
-  color: #6c5ce7; /* Soft purple */
+  color: #6c5ce7;
   border-radius: 5px;
   padding: 8px 18px;
   font-weight: bold;
@@ -88,7 +88,7 @@ const registrationStore = useRegistrationStore();
 }
 
 .cart {
-  background-color: #58a6b8; /* Soft teal */
+  background-color: #58a6b8;
   color: white;
   padding: 8px 20px;
   border-radius: 5px;
@@ -100,7 +100,6 @@ const registrationStore = useRegistrationStore();
 }
 
 .cart:hover {
-  background-color: #4a8e97; /* Darker teal on hover */
+  background-color: #4a8e97;
 }
-
 </style>
